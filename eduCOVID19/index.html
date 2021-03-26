@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <title>Edukasi Kesehatan YARSI Tentang COVID-19</title>
+        
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <script>
+            addEventListener("load", function){
+                setTimeout(hideURLbar, 0);
+            } false;
+
+            function hideURLbar(){
+                window.scrollTo(0, 1);
+            }
+        </script>
+
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="all"/>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        
+    </head>
+
+    <body>
+        <!-- main banner -->
+        <div class="main-top" id="home">
+            <header>
+                <div class="container-fluid">
+                    <div class="header d-lg-flex justify-content-between align-items-center py-3 px-sm-3">
+                        <!-- Logo Web -->
+                        <div id="logo">
+                            <h1><a href="index.html"><span class="mr-2"></span>EduCOVID19</a></h1>
+                        </div>
+
+                        <!-- Navigation -->
+                        <div class="navigation">
+                            <nav>
+                                <label for="drop" class="toggle">Menu</label>
+                                <input type="checkbox" id="drop"/>
+                                <ul class="menu">
+                                    <li><a href="index.html" class="active">Beranda</a></li>
+                                    <li><a href="#cegah" class="drop-text">Pencegahan COVID-19</a></li>
+								    <li><a href="#stats" class="drop-text">Data dan Statistik</a></li>
+                                    <li><a href="#kuis">Kuis</a></li>
+                                    <li><a href="#kontak">Kontak Kami</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Isi Beranda EduCOVID19 -->
+            <div class="banner_Beranda position-relative">
+                <div class="container">
+                    <div class="d-md-flex">
+                        <div class="banner_txt">
+                            <h3 class="pvt-title">Education <br> <span>COVID-19</span></h3>
+                            <p class="text-sty-banner">Layanan Web Edukasi Kesehatan kepada masyarakat <br> 
+                                tentang virus COVID-19 dan bagaimana pencegahan penyebarannya</p>
+                            <hr>
+                            <p style="font-style: italic;">Website ini dikembangkan oleh Rumah Sakit YARSI bekerja sama dengan Fakultas Teknologi Informasi </p>
+                        </div>
+
+                        <div class="banner-img">
+                            <img src="images/banner.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pencegahan COVID-19 : 5M -->
+            <section class="banner-bottom bg-li py-5" id="cegah">
+                <div class="container py-xl-5 py-lg-3">
+                    <h3 class="title text-center font-weight-bold">Pencegahan COVID-19</h3>
+                    <p class="sub-title text-center mt-3 mb-sm-5 mb-4">Gerakan 5M adalah modal awal yang dibutuhkan agar pandemi COVID-19 
+                        bisa cepat usai. Yuk, ketahui dan praktikkan 5M pencegahan COVID-19 mulai sekarang!</p>
+                    
+                    <div class="banner-img">
+                        <img src="images/Gerakan5M.jpeg" alt="Gerakan 5M" class="img-5M">
+                        <a href="https://www.youtube.com/watch?v=yAthDEe2VSA" class="btn button-style mt-md-5 mt-4">Ketahui Lebih 5M</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Data dan Statistik -->
+            <section class="bottom-count py-5" id="stats">
+                <div class="container py-xl-5 py-lg-3">
+                    <div class="row">
+                        <!--
+                         <div class="col-lg-5 left-img">
+                            <canvas id="myCanvas" width="640" height="480" style="border:1px solid #000000;">
+                            </canvas>
+
+                            <script type="text/javascript">
+                                var canvas = document.getElementById("myCanvas");
+                                var ctx = canvas.getContext("2d");
+
+                                ctx.beginPath(); // mulai menggmabar
+                                ctx.moveTo(10,10);
+                                ctx.lineTo(50,50);
+                                ctx.stroke();
+                            </script>
+                        </div> -->
+
+                        <div class="col-lg-7 pl-lg-4 mt-lg-2 mt-4">
+                            <div class="bott mr-xl-5">
+                                <h3 class="title text-bl mb-3 font-weight-bold">Data dan Statistik COVID-19</h3>
+                                <p class="title-sub-2 mb-3">Berikut adalah ringkasan persebaran data dan statistik 
+                                    COVID-19 yang terjadi di Indonesia</p>
+                            </div>
+
+                            <div class="row mt-5">
+                                <div class="col-sm-4 count mt-sm-0 mt-3">
+                                    <h4>1,48 jt</h4>
+                                    <h5>+6.107</h5>
+                                    <p>Kasus</p>
+                                </div>
+                                <div class="col-sm-4 count mt-sm-0 mt-3">
+                                    <h4>1,32 jt</h4>
+                                    <h5>+4.656</h5>
+                                    <p>Sembuh</p>
+                                </div>
+                                <div class="col-sm-4 count mt-sm-0 mt-3">
+                                    <h4>40.081</h4>
+                                    <h5>+98</h5>
+                                    <p>Meninggal Dunia</p>
+                                </div>
+                            </div>
+
+                            <div> <a href="https://www.google.com/search?q=data+covid+hari+ini&oq=data+covid&aqs=chrome.1.69i57j0i433i457j0i402l2j0l6.8789j0j4&sourceid=chrome&ie=UTF-8" 
+                                class="btn button-style mt-md-5 mt-4" style="margin-top: 20px;">Selengkapnya</a></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Kuis -->
+            <section class="kuis py-5" id="kuis">
+                <div class="container py-xl-5 py-lg-3">
+                    <hr style="margin-bottom: 20pt;">
+                    <h1 class="tittle text-center font-weight-bold">Kuis COVID-19</h1>
+                    <p class="sub-tittle text-center mt-3 mb-sm-5 mb-4">Uji Pengetahuan
+                        pengunjung berkaitan dengan virus COVID-19 dan pencegahannya</p>
+                    
+                    <div class="light-grey padding-kuis margintop-kuis">
+                        <h2>Mulai Mencoba Kuis</h2>
+                        <p style="margin-bottom: 20px;">Good Luck!</p>
+
+                        <div class="question ml-sm-5 pl-sm-5 pt-2">
+                            <div class="py-2 h5"><b>Q1. Di bawah ini yang bukan termasuk dari 5M adalah ..  </b></div>
+                            <div class="ml-md-3 ml-sm-3 pl-md-5 pt-sm-0 pt-3" id="options"> 
+                                <label class="options">Mencuci Tangan 
+                                    <input type="radio" name="radio"> 
+                                    <span class="checkmark"></span> 
+                                </label> 
+                                <label class="options">Memakasi Masker 
+                                    <input type="radio" name="radio"> 
+                                    <span class="checkmark"></span> 
+                                </label> 
+                                <label class="options">Mengunjungi Kerumunan 
+                                    <input type="radio" name="radio"> 
+                                    <span class="checkmark"></span> 
+                                </label> 
+                                <label class="options">Menjaga Jarak 
+                                    <input type="radio" name="radio"> 
+                                    <span class="checkmark"></span> 
+                                </label>
+                            </div>
+
+                            <div class="py-2 h5"><b>Q2. Bagaimana cara penularan virus COVID-19?  </b></div>
+                            <div class="ml-md-3 ml-sm-3 pl-md-5 pt-sm-0 pt-3" id="options"> 
+                                <label class="options">Terpapar droplet atu cipratan liur secara langsung 
+                                    <input type="radio" name="radio"> 
+                                    <span class="checkmark"></span> 
+                                </label> 
+                                <label class="options">Selalu mencuci tangan setelah makan 
+                                    <input type="radio" name="radio"> 
+                                    <span class="checkmark"></span> 
+                                </label> 
+                                <label class="options">Berpergian dengan menggunakan masker
+                                    <input type="radio" name="radio"> 
+                                    <span class="checkmark"></span> 
+                                </label> 
+                                <label class="options">Memegang permukaan yang bersih dan langsung mencuci tangan
+                                    <input type="radio" name="radio"> 
+                                    <span class="checkmark"></span> 
+                                </label>
+                            </div>
+
+                            <div class="py-2 h5"><b>Q3. Gejala yang ditimbulkan apabila terpapar COVID-19, kecuali ..  </b></div>
+                            <div class="ml-md-3 ml-sm-3 pl-md-5 pt-sm-0 pt-3" id="options"> 
+                                <label class="options">Sesak Nafas atau Nyeri Dada 
+                                    <input type="radio" name="radio"> 
+                                    <span class="checkmark"></span> 
+                                </label> 
+                                <label class="options">Suhu Tubuh melebihi 37 derajat celcius
+                                    <input type="radio" name="radio"> 
+                                    <span class="checkmark"></span> 
+                                </label> 
+                                <label class="options">Diare
+                                    <input type="radio" name="radio"> 
+                                    <span class="checkmark"></span> 
+                                </label> 
+                                <label class="options">Merasa pusing setelah tiduran 
+                                    <input type="radio" name="radio"> 
+                                    <span class="checkmark"></span> 
+                                </label>
+                            </div>
+
+                            <div class="py-2 h5"><b>Q4. Cara bersin yang baik dan beretika yaitu ..  </b></div>
+                            <div class="ml-md-3 ml-sm-3 pl-md-5 pt-sm-0 pt-3" id="options"> 
+                                <label class="options">Menutup dengan baju bagian luar
+                                    <input type="radio" name="radio"> 
+                                    <span class="checkmark"></span> 
+                                </label> 
+                                <label class="options">Bersin sembarangan
+                                    <input type="radio" name="radio"> 
+                                    <span class="checkmark"></span> 
+                                </label> 
+                                <label class="options">Tidak menghiraukan keadaan
+                                    <input type="radio" name="radio"> 
+                                    <span class="checkmark"></span> 
+                                </label> 
+                                <label class="options">Menutup dengan telapak tangan/tisu 
+                                    <input type="radio" name="radio"> 
+                                    <span class="checkmark"></span> 
+                                </label>
+                            </div>
+
+                            <div class="py-2 h5"><b>Q5. COVID-19 bisa masuk melalui anggota-anggota tubuh di bawah ini, kecuali ..  </b></div>
+                            <div class="ml-md-3 ml-sm-3 pl-md-5 pt-sm-0 pt-3" id="options"> 
+                                <label class="options">Mata
+                                    <input type="radio" name="radio"> 
+                                    <span class="checkmark"></span> 
+                                </label> 
+                                <label class="options">Hidung 
+                                    <input type="radio" name="radio"> 
+                                    <span class="checkmark"></span> 
+                                </label> 
+                                <label class="options">Mulut
+                                    <input type="radio" name="radio"> 
+                                    <span class="checkmark"></span> 
+                                </label> 
+                                <label class="options">Telinga 
+                                    <input type="radio" name="radio"> 
+                                    <span class="checkmark"></span> 
+                                </label>
+                            </div>
+
+                            <div class="py-2 h5"><b>Q6. Peran serta masyarakat diperlukan untuk mencegah COVID-19 semakin menyebar dengan ..  </b></div>
+                            <div class="ml-md-3 ml-sm-3 pl-md-5 pt-sm-0 pt-3" id="options"> 
+                                <label class="options">Menjalankan pola hidup bersih dan sehat
+                                    <input type="radio" name="radio"> 
+                                    <span class="checkmark"></span> 
+                                </label> 
+                                <label class="options">Tetap diam di rumah sesuai dengan imbauan pemerintah
+                                    <input type="radio" name="radio"> 
+                                    <span class="checkmark"></span> 
+                                </label> 
+                                <label class="options">Banyak makan dan minum 
+                                    <input type="radio" name="radio"> 
+                                    <span class="checkmark"></span> 
+                                </label> 
+                                <label class="options">Ikut menyosialisasikan pencegahan COVID-19 melalui media sosial
+                                    <input type="radio" name="radio"> 
+                                    <span class="checkmark"></span> 
+                                </label>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center pt-3">
+                            <div class="ml-auto mr-sm-5"> 
+                                <button class="btn button-style mt-md-5 mt-4">Finish</button> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Kontak-->
+            <footer class="bg-li py-5">
+                <div class="container py-xl-5 py-lg-3">
+                    <!-- subscribe -->
+                    <div class="subscribe mx-auto">
+                        <h2 class="tittle text-center font-weight-bold">Kontak Kami!</h2>
+                        <p class="sub-tittle text-center mt-3 mb-sm-5 mb-4">Jika ingin berkomunikasi atau bertanya dengan pengelola EDU-COVID <br>
+                            Silahkan isi formulir di bawah ini! </p>
+                        
+                        <div class="contact py-5" id="kontak">
+                            <div class="contact-top1">
+                                <form action="#" method="post" class="contact-do">
+                                   <div class="form-group">
+                                        <div class="row">
+                                            <label>Nama Lengkap</label>
+                                            <input class="form-control" type="text" placeholder="Nama Lengkap Pengunjung" name="name" required="">
+                                        </div>
+                                    </div>
+                                            
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <label>Email </label>
+                                            <input class="form-control" type="email" placeholder="example@mail.com" name="email" required="">
+                                        </div>
+                                    </div>
+                                            
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <label>Your message</label>
+                                                <textarea placeholder="Tuliskan Pesan Anda" name="message" class="form-control"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>               
+                                        
+                                    <div class="row mt-3">
+                                        <div class="col-md-12">
+                                            <button type="submit" class="btn btn-cont btn-block mt-4">Send</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
